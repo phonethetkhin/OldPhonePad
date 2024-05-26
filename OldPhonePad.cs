@@ -138,7 +138,7 @@ public class OldPhonePadConverter
         Console.WriteLine(converter.GetOutputStr("33#"));                // Output: E
         Console.WriteLine(converter.GetOutputStr("227*#"));              // Output: B
         Console.WriteLine(converter.GetOutputStr("4433555 555666#"));    // Output: HELLO
-        Console.WriteLine(converter.GetOutputStr("8 88777444666*664#")); // Output: Turing
+        Console.WriteLine(converter.GetOutputStr("8 88777444666*664#")); // Output: TURING
 
         // Additional test cases for various scenarios
         OtherDifferentTestCases();
@@ -146,7 +146,7 @@ public class OldPhonePadConverter
 
     /**
      * These are the possible test cases for using the oldPhonePad function.
-     * There are 7 scenarios that users can test:
+     * There are 7 scenarios that users can do:
      * (i) Simple one-key scenario
      * (ii) Consecutive same key presses
      * (iii) Handling back presses
@@ -194,14 +194,14 @@ public class OldPhonePadConverter
 
         // (5) Mixed key presses scenario
         Console.WriteLine(converter.GetOutputStr("4433555 555666#"));                  // Output: HELLO
-        Console.WriteLine(converter.GetOutputStr("8 88777444666*664#"));               // Output: Turing
-        Console.WriteLine(converter.GetOutputStr("222 33 444 555#"));                  // Output: CFIL
+        Console.WriteLine(converter.GetOutputStr("8 88777444666*664#"));               // Output: TURING
+        Console.WriteLine(converter.GetOutputStr("222 33 444 555#"));                  // Output: CEIL
         Console.WriteLine(converter.GetOutputStr("222 333 4444#"));                    // Output: CFG
         Console.WriteLine(converter.GetOutputStr("7777 8888 9999#"));                  // Output: STZ
         Console.WriteLine(converter.GetOutputStr("555 666 777#"));                     // Output: LOR
-        Console.WriteLine(converter.GetOutputStr("444 55566688833 222 2 8#"));         // Output: I love cat
-        Console.WriteLine(converter.GetOutputStr("446669 277733 99966688#"));          // Output: How are you
-        Console.WriteLine(converter.GetOutputStr("444777666 66 777766633389277733#")); // Output: Iron Software
+        Console.WriteLine(converter.GetOutputStr("444 55566688833 222 2 8#"));         // Output: ILOVECAT
+        Console.WriteLine(converter.GetOutputStr("446669 277733 99966688#"));          // Output: HOWAREYOU
+        Console.WriteLine(converter.GetOutputStr("444777666 66 777766633389277733#")); // Output: IRONSOFTWARE
 
         // (6) Multiple backspaces scenario
         Console.WriteLine(converter.GetOutputStr("22*2*#"));    // Output: ""

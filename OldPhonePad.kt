@@ -119,7 +119,7 @@ fun main() {
     println(getOutputStr("33#"))                // Output: E
     println(getOutputStr("227*#"))              // Output: B
     println(getOutputStr("4433555 555666#"))    // Output: HELLO
-    println(getOutputStr("8 88777444666*664#")) // Output: Turing
+    println(getOutputStr("8 88777444666*664#")) // Output: TURING
 
     otherDifferentTestCases()
 
@@ -127,7 +127,7 @@ fun main() {
 
 /**
  * These are the possible test cases for using the oldPhonePad function.
- * There are 7 scenarios that users can test:
+ * There are 7 scenarios that users can do:
  * (i) Simple one-key scenario
  * (ii) Consecutive same key presses
  * (iii) Handling back presses
@@ -174,14 +174,14 @@ fun otherDifferentTestCases() {
 
     // (5) Mixed key presses scenario
     println(getOutputStr("4433555 555666#"))                  // Output: HELLO
-    println(getOutputStr("8 88777444666*664#"))               // Output: Turing
-    println(getOutputStr("222 33 444 555#"))                  // Output: CFIL
+    println(getOutputStr("8 88777444666*664#"))               // Output: TURING
+    println(getOutputStr("222 33 444 555#"))                  // Output: CEIL
     println(getOutputStr("222 333 4444#"))                    // Output: CFG
     println(getOutputStr("7777 8888 9999#"))                  // Output: STZ
     println(getOutputStr("555 666 777#"))                     // Output: LOR
-    println(getOutputStr("444 55566688833 222 2 8#"))         // Output: I love cat
-    println(getOutputStr("446669 277733 99966688#"))          // Output: How are you
-    println(getOutputStr("444777666 66 777766633389277733#")) // Output: Iron Software
+    println(getOutputStr("444 55566688833 222 2 8#"))         // Output: ILOVECAT
+    println(getOutputStr("446669 277733 99966688#"))          // Output: HOWAREYOU
+    println(getOutputStr("444777666 66 777766633389277733#")) // Output: IRONSOFTWARE
 
     // (6) Multiple backspaces scenario
     println(getOutputStr("22*2*#"))    // Output: ""
