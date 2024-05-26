@@ -32,8 +32,11 @@ This console program is about converting the keys from the keypad into the Strin
  *      - Reset currentKey and currentCount.
  
 
-  These are the possible test cases for using the oldPhonePad function.
-  There are 7 scenarios that users can do:
+  These are the possible test cases for using the oldPhonePad function.\
+   **Default Scenario provided in the assignment:**
+   [![temp-Imagea-Gmln-E.avif](https://i.postimg.cc/HxmBdgH5/temp-Imagea-Gmln-E.avif)](https://postimg.cc/WD9Mwxdb)
+   
+  There are other possible 7 scenarios that users can do:
  * (i) **Simple one-key scenario:**
    [![temp-Imagebog3xu.avif](https://i.postimg.cc/Hx3jnwGz/temp-Imagebog3xu.avif)](https://postimg.cc/hzzK37tQ)  
 
